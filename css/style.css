@@ -81,6 +81,7 @@
     height: 82px;
     text-align: center;
     background: url("../img/side-navbg.png")no-repeat center center;
+    z-index: 20;
 }
 #menu li:nth-child(1) .menu-item{
     left: 58px;
@@ -101,6 +102,21 @@
 #menu li:nth-child(5) .menu-item{
     left: 58px;
     bottom: 171px;
+}
+#menu li:nth-child(1).active .menu-item{
+    display: block;
+}
+#menu li:nth-child(2).active .menu-item{
+    display: block;
+}
+#menu li:nth-child(3).active .menu-item{
+    display: block;
+}
+#menu li:nth-child(4).active .menu-item{
+    display: block;
+}
+#menu li:nth-child(5).active .menu-item{
+    display: block;
 }
 .menu-item-number{
     margin-top: 20px;
