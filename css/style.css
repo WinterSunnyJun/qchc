@@ -1,0 +1,130 @@
+/*顶部*/
+.top-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(102,102,102,.5);
+    z-index: 10;
+}
+.top{
+    padding: 8px 0;
+    height: 64px;
+}
+.logo{
+    width: 202px;
+    height: 100%;
+}
+.nav{
+    margin-top: 24px;
+    margin-left: 180px;
+    border-right: 1px solid #ffffff;
+}
+.nav li{
+    float: left;
+    padding-right: 30px;
+}
+.nav li a{
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.nav li.active a{
+    color: #30a4fe;
+    border-bottom: 2px solid #30a4fe;
+}
+.ontact{
+    margin-top: 5px;
+}
+.ontact-pic{
+    margin-right: 20px;
+    width: 54px;
+    height: 54px;
+}
+.ontact-ontact{
+    margin-top: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.ontact-tel{
+    color: #fd0000;
+    font-size: 20px;
+}
+/*顶部结束*/
+/*首页*/
+/*侧导航*/
+#menu{
+    position: fixed;
+    left: 100px;
+    top: 50%;
+    margin-top: -214px;
+    z-index: 10;
+    width: 140px;
+    height: auto;
+}
+#menu li{
+    position: relative;
+    margin-bottom: 77px;
+}
+#menu li:last-child{
+    margin-bottom: 0;
+}
+#menu li a{
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.menu-item{
+    position: absolute;
+    display: none;
+    width: 82px;
+    height: 82px;
+    text-align: center;
+    background: url("../img/side-navbg.png")no-repeat center center;
+}
+#menu li:nth-child(1) .menu-item{
+    left: 58px;
+    top: 175px;
+}
+#menu li:nth-child(2) .menu-item{
+    left: 58px;
+    top: 74px;
+}
+#menu li:nth-child(3) .menu-item{
+    left: 58px;
+    bottom: -31px;
+}
+#menu li:nth-child(4) .menu-item{
+    left: 58px;
+    bottom: 70px;
+}
+#menu li:nth-child(5) .menu-item{
+    left: 58px;
+    bottom: 171px;
+}
+.menu-item-number{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.menu-item-text{
+    font-size: 12px;
+    color: #ffffff;
+}
+/*侧导航结束*/
+.index-one{
+    background: url("../img/indexone.jpg")no-repeat center center;
+}
+.index-two{
+    background: url("../img/indextwo.jpg")no-repeat center center;
+}
+.index-three{
+    background: url("../img/indexthree.jpg")no-repeat center center;
+}
+.index-four{
+    background: url("../img/indexfour.jpg")no-repeat center center;
+}
+.index-five{
+    background: #404040;
+}
+/*首页结束*/
