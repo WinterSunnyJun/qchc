@@ -1,6 +1,6 @@
 /*顶部*/
 .top-wrapper{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     background: rgba(102,102,102,.5);
@@ -225,10 +225,420 @@
     margin: 32px auto 0;
 }
 /*第三屏结束*/
+/*第四屏*/
 .index-four{
     background: url("../img/indexfour.jpg")no-repeat center center;
 }
+.index-four-box h3{
+    width: 100%;
+    font-size: 46px;
+    font-weight: 500;
+    color: #4c9ff7;
+    text-align: center;
+}
+.four-title-en{
+    width: 442px;
+    height: 20px;
+    margin: 20px auto 0;
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+    background: url("../img/indexfour-title.png")no-repeat center center;
+}
+.four-list{
+    margin-top: 80px;
+    height: 335px;
+}
+.four-list li{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.four-item-pic{
+    width: 218px;
+    height: 218px;
+    margin: 0 auto;
+}
+.four-item-text{
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #666666;
+    text-align: center;
+}
+.four-mask{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #4c9ff7;
+    color: #ffffff;
+}
+.four-list li:hover .four-mask{
+    display: block;
+}
+.four-mask-pic{
+    width: 218px;
+    height: 160px;
+    margin: 0 auto;
+}
+.four-mask-title{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.four-mask-text{
+    margin: 10px auto;
+    width: 70%;
+    font-size: 14px;
+    line-height:20px;
+    text-align: center;
+}
+/*第四屏结束*/
+/*第五屏*/
 .index-five{
+    position: relative;
     background: #404040;
 }
+.index-five-box h3{
+    width: 100%;
+    font-size: 46px;
+    font-weight: 500;
+    color: #d2d2d2;
+    text-align: center;
+}
+.five-title-en{
+    width: 448px;
+    height: 20px;
+    margin: 20px auto 0;
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+    background: url("../img/indexfive-title.png")no-repeat center center;
+}
+.five-list{
+    margin-top: 60px;
+}
+.five-list li{
+    float: left;
+    width: 25%;
+    height: 180px;
+}
+.five-list li:hover{
+    box-shadow: -3px 6px 10px #2f2f2f,3px 6px 10px #2f2f2f;
+}
+.five-item-pic{
+    width: 70px;
+    height: 70px;
+    margin: 40px auto 0;
+}
+.five-item-text{
+    margin-top: 12px;
+    width: 100%;
+    text-align: center;
+    color: #d2d2d2;
+    font-size: 24px;
+}
+/*第五屏结束*/
+/*底部*/
+.index-footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    background: rgba(102,102,102,.5);
+}
+/*底部结束*/
 /*首页结束*/
+/*服务项目*/
+.banner{
+    height: 580px;
+}
+.fwxm-wrapper{
+    margin-top: 100px;
+    border-top: 1px solid #e6e6e6;
+}
+.fwxm-title{
+    width: 650px;
+    margin: 20px auto 0;
+}
+.fwxm-title h2{
+    float: left;
+    font-size: 70px;
+    font-family: "华文楷体";
+    color: #4d4d4d;
+}
+.fwxm-title-ch{
+    font-size: 26px;
+    color: #4d4d4d;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #000;
+}
+.fwxm-btn-wrapper{
+    margin-top: 90px;
+}
+.fwxm-btn-wrapper ul{
+    margin: 0 auto;
+    width: 1000px;
+    height: 52px;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+}
+.fwxm-btn-wrapper ul li{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 30px;
+}
+.fwxm-btn-wrapper ul li.active{
+    background: -webkit-linear-gradient(left, #84bcf7 , #0a7bf3); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right,#84bcf7 , #0a7bf3); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #84bcf7 , #0a7bf3); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #84bcf7 , #0a7bf3); /* 标准的语法（必须放在最后） */;
+}
+.fwxm-btn-wrapper ul li.active a{
+    color: #ffffff;
+}
+.fwxm-btn-wrapper ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.wx-gzh{
+    margin-top: 85px;
+}
+.wx-gzh-text{
+    width: 375px;
+    margin: 140px 55px 0 88px;
+}
+.wx-gzh-text h5{
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.wx-gzh-en{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #999999;
+}
+.wx-gzh-text span{
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+}
+.wx-gzh-word{
+    margin-top: 20px;
+    width: 100%;
+    line-height: 28px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.wx-h5-wrapper{
+    margin-top: 60px;
+    height: 565px;
+    background: url("../img/h5-bg.jpg")no-repeat;
+}
+.wx-h5{
+    overflow: hidden;
+}
+.wx-h5-pic{
+    width: 600px;
+    height: 443px;
+    margin-top: 60px;
+}
+.wx-h5-text{
+    margin-top: 200px;
+    margin-left: 45px;
+    width: 250px;
+}
+.wx-h5-text h5{
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.wx-h5-en{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.wx-h5-text span{
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #ffffff;
+}
+.wx-h5-word{
+    margin-top: 20px;
+    width: 100%;
+    line-height: 28px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.wx-wfw{
+    overflow: hidden;
+}
+.wx-wfw-pic{
+    width: 584px;
+    height: 688px;
+    margin-top: 60px;
+}
+.wx-wfw-text{
+    width: 375px;
+    margin: 260px 55px 0 110px;
+}
+.wx-wfw-text h5{
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.wx-wfw-en{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #999;
+}
+.wx-wfw-text span{
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+}
+.wx-wfw-word{
+    margin-top: 20px;
+    width: 100%;
+    line-height: 28px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.wx-xcx-wrapper{
+    padding-top: 60px;
+    background: #646464;
+}
+.wx-xcx-wrapper h5{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.wx-xcx-en{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+.wx-xcx-pic{
+    margin: 32px auto 0;
+    width: 300px;
+    height: 524px;
+}
+.footer{
+    background: #282828;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding: 24px 0;
+}
+.rj-wrapper{
+    margin-top: 86px;
+}
+.rj-aboutus-title{
+    width: 180px;
+}
+.rj-aboutus-title h3{
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.rj-aboutus-title p{
+    margin-top: 18px;
+    font-size: 14px;
+    color: #999999;
+}
+.rj-aboutus-text{
+    width: 1020px;
+}
+.rj-aboutus-text p{
+    width: 100%;
+    font-size: 16px;
+    color: #4d4d4d;
+    line-height: 28px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.rj-list{
+    margin-top: 60px;
+}
+.rj-list li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    height: 240px;
+    margin-bottom: 40px;
+}
+.rj-item-pic{
+    position: relative;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    border: 1px solid #4c9ff7;
+    box-shadow: -3px 0px 10px #dcddde,3px 0px 10px #dcddde;
+    border-radius: 50%;
+}
+.rj-list li:hover .rj-item-mask{
+    display: block;
+}
+.rj-item-mask{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    z-index: 20;
+    background: #4c9ff7;
+    border-radius: 50%;
+}
+
+.rj-item-pic img{
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+.rj-item-title{
+    margin-top: 22px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.rj-item-text{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4d4d4d;
+    text-align: center;
+
+}
+/*服务项目结束*/
