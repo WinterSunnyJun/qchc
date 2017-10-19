@@ -385,14 +385,14 @@
 .fwxm-btn-wrapper{
     margin-top: 90px;
 }
-.fwxm-btn-wrapper ul{
+.fwxm-btn{
     margin: 0 auto;
     width: 1000px;
     height: 52px;
     border: 1px solid #e6e6e6;
     border-radius: 30px;
 }
-.fwxm-btn-wrapper ul li{
+.fwxm-btn li{
     float: left;
     width: 33.33%;
     height: 100%;
@@ -400,22 +400,23 @@
     line-height: 52px;
     border-radius: 30px;
 }
-.fwxm-btn-wrapper ul li.active{
+.fwxm-btn li.active{
     background: -webkit-linear-gradient(left, #84bcf7 , #0a7bf3); /* Safari 5.1 - 6.0 */
     background: -o-linear-gradient(right,#84bcf7 , #0a7bf3); /* Opera 11.1 - 12.0 */
     background: -moz-linear-gradient(right, #84bcf7 , #0a7bf3); /* Firefox 3.6 - 15 */
     background: linear-gradient(to right, #84bcf7 , #0a7bf3); /* 标准的语法（必须放在最后） */;
 }
-.fwxm-btn-wrapper ul li.active a{
+.fwxm-btn li.active a{
     color: #ffffff;
 }
-.fwxm-btn-wrapper ul li a{
+.fwxm-btn li a{
     display: inline-block;
     width: 100%;
     height: 100%;
     color: #4d4d4d;
     font-size: 18px;
 }
+
 .wx-gzh{
     margin-top: 85px;
 }
@@ -641,4 +642,173 @@
     text-align: center;
 
 }
+.app-wrapper{
+    margin-top: 85px;
+}
+.yyxt-wrapper{
+    height: 515px;
+    background: #f5f5f5;
+}
+.yyxt-pic{
+    width: 460px;
+    height: 442px;
+    margin: 35px 0 0 60px;
+}
+.yyxt-text{
+    margin: 165px 0 0 45px;
+    width: 540px;
+}
+.yyxt-text h5{
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.yyxt-en{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #999999;
+}
+.yyxt-text span{
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+}
+.yyxt-word{
+    margin-top: 20px;
+    width: 100%;
+    line-height: 28px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.app-ys{
+    position: relative;
+    margin-top: 60px;
+    height: 645px;
+    background: url("../img/app-two.png")no-repeat 75px 122px;
+
+}
+.app-ys-text{
+    text-align: center;
+}
+.app-ys-text h5{
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.app-ys-text{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #999999;
+}
+.app-ys-list li{
+    position: absolute;
+}
+.app-ys-list ul li:first-child > .appys-item-pic{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.app-ys-list li:nth-child(1){
+    left: 545px;
+    top: 130px;
+}
+.app-ys-list li:nth-child(2){
+    top: 252px;
+    left: 769px;
+}
+.app-ys-list li:nth-child(3){
+    top: 309px;
+    left: 138px;
+}
+.app-ys-list li:nth-child(4){
+    top: 435px;
+    left: 683px;
+}
+.appys-item-pic{
+    width: 60px;
+    height: 60px;
+}
+.appys-item-text{
+    width: 350px;
+}
+.appys-item-text h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.appys-item-text p{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 34px;
+}
+.app-good-wrapper{
+    margin-top: 60px;
+    background: #f5f5f5;
+    overflow: hidden;
+    padding-bottom: 75px;
+}
+.app-good-text{
+    margin-top: 60px;
+}
+.app-good-text h5{
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.app-good-en{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #999999;
+}
+.app-good-list{
+    margin-top: 90px;
+}
+.app-good-list li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.appgood-item-pic{
+    width: 90px;
+    height: 87px;
+    margin: 0 auto;
+}
+.app-good-list li h5{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #4d4d4d;
+    font-weight: 500;
+}
+.app-good-list li p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
 /*服务项目结束*/
+/*服务流程*/
+.fwlc-wrapper{
+    margin-top: 100px;
+    border-top: 1px solid #e6e6e6;
+}
+.fwlc-title{
+    width: 650px;
+    margin: 20px auto 0;
+}
+.fwlc-title h2{
+    float: left;
+    font-size: 70px;
+    font-family: "华文楷体";
+    color: #4d4d4d;
+}
+.fwlc-title-ch{
+    font-size: 26px;
+    color: #4d4d4d;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #000;
+}
+.fwlc-body{
+    margin-top: 85px;
+    height: 697px;
+}
+/*服务流程结束*/
