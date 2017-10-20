@@ -46,4 +46,12 @@ $(function () {
         }
         $(".gywm-list li").eq(auNow).show().siblings().hide();
     })
+//    手机导航
+    $(".nav_bar--button").click(function () {
+        if ($(".nav_bar--content").css("display") == "block"){
+            $(".nav_bar--content").slideUp(300);
+        } else {
+            $(".nav_bar--content").slideDown(300);
+        }
+    })
 })

@@ -1,3 +1,13 @@
+/*公共区域*/
+@media screen and (min-width: 780px){
+    .sj_nav{
+        display: none;
+    }
+    .pho_footer{
+        display: none;
+    }
+}
+
 /*顶部*/
 .top-wrapper{
     position: absolute;
